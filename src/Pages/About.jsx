@@ -22,20 +22,20 @@ function About() {
                   <p className="card-title">{countryName}</p>
                   <p>
                     <span className="card-description">
-                      {capital}:
-                    </span> Delhi  
+                      Capital:
+                    </span> {capital}  
                   </p>
 
                   <p>
                     <span className="card-description">
-                      {population}:
-                    </span> 12  
+                      Population:
+                    </span> {population}  
                   </p>
 
                   <p>
                     <span className="card-description">
-                      {interestingFact}:
-                    </span> Colorful Country  
+                      Fact:
+                    </span> {interestingFact}  
                   </p>
                 </div>
              </div>

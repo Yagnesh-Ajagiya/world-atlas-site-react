@@ -620,6 +620,16 @@
       display: flex;
       justify-content: space-between;
     }
+
+    .footer-area{
+      max-width: 30rem !important;
+      margin: auto !important;
+    }
+  }
+
+  .footer-area{
+    max-width: 120rem;
+    margin: auto;
   }
   
   /* //Loader  */

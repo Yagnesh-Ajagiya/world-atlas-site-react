@@ -14,7 +14,7 @@ function Footer() {
   };
   return (
     <footer className="footer-section">
-      <div className="container grid grid-three-cols" style={{maxWidth: "120rem", margin: "auto"}}>
+      <div className="container footer-area grid grid-three-cols">
         {footerContact.map((curData, index) => {
           const { icon, title, details } = curData;
           return (
